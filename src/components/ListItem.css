@@ -1,0 +1,36 @@
+.list{
+    font-size: 15px;
+    padding: 2px 10px;
+    background: #ee6f57;
+    margin: 5px auto;
+    width: 80%;
+    border-radius: 10px;
+    color:#00334e;
+    font-weight: 500;
+
+    position: relative;
+}
+
+.list input {
+    background: transparent;
+    color: #00334e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    width: 200px;
+}
+
+.list input:focus{
+    outline: none;
+}
+
+.list i{
+    position: absolute;
+    right: 15px;
+    top: 40%;
+}
+
+.listContainer::after{
+    content: '';
+    margin: 15px ;
+}
